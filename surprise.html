@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#CF9FFF" />
+
+        <title>What I Love the Most ♡</title>
+
+        <link rel="icon" type="image/png" href="assets/images/starlit-moon.png" />
+        <link rel="stylesheet" href="styles/index.css" />
+
+        <script src="scripts/index.js" defer></script>
+    </head>
+
+    <body>
+        <main class="surprise-page">
+            <!-- FLOATING DECORATIONS -->
+            <div class="floating-heart heart1">♡</div>
+            <div class="floating-heart heart2">💜</div>
+            <div class="floating-heart heart3">✧</div>
+            <div class="floating-heart heart4">✦</div>
+
+            <!-- =================================
+             OPENING QUESTION
+        ================================== -->
+
+            <section class="surprise-intro" id="surpriseIntro">
+                <div class="question-sparkle">✨</div>
+
+                <p class="eyebrow">A LITTLE QUESTION FOR YOU</p>
+
+                <h1>You know what I love the most?</h1>
+
+                <p class="surprise-subtitle">There's something I've been wanting to tell you... ♡</p>
+
+                <button class="surprise-button" id="startSlideshow" type="button">What? Tell me! ♡</button>
+            </section>
+
+            <!-- =================================
+             PHOTO SLIDESHOW
+        ================================== -->
+
+            <section class="slideshow-panel" id="slideshow" hidden>
+                <!-- SLIDESHOW HEADER -->
+                <div class="slideshow-heading">
+                    <p class="eyebrow">HERE'S WHAT I LOVE ABOUT YOU</p>
+
+                    <div class="slide-progress" id="slideProgress">
+                        <span class="slide-dot active"></span>
+                        <span class="slide-dot"></span>
+                        <span class="slide-dot"></span>
+                        <span class="slide-dot"></span>
+                        <span class="slide-dot"></span>
+                    </div>
+
+                    <p class="slide-count" id="slideCount">1 / 5</p>
+                </div>
+
+                <!-- =================================
+                 SLIDE 1: YOUR PERSONALITY
+            ================================== -->
+
+                <article class="photo-slide active">
+                    <h1>Your Personality <span>♡</span></h1>
+
+                    <p class="slide-description">
+                        There's just something about the way you are that makes you so special.
+                    </p>
+
+                    <div class="photo-grid">
+                        <figure>
+                            <img src="assets/images/personality-1.jpg" alt="Personality photo 1" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/personality-2.jpg" alt="Personality photo 2" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/personality-3.jpg" alt="Personality photo 3" />
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- =================================
+                 SLIDE 2: YOUR SMILE
+            ================================== -->
+
+                <article class="photo-slide">
+                    <h1>Your Smile <span>♡</span></h1>
+
+                    <p class="slide-description">
+                        Your smile is one of my favorite things. I hope you never run out of reasons to smile.
+                    </p>
+
+                    <div class="photo-grid">
+                        <figure>
+                            <img src="assets/images/smile-1.jpg" alt="Smile photo 1" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/smile-2.jpg" alt="Smile photo 2" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/smile-3.jpg" alt="Smile photo 3" />
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- =================================
+                 SLIDE 3: YOUR MIND
+            ================================== -->
+
+                <article class="photo-slide">
+                    <h1>Your Mind <span>♡</span></h1>
+
+                    <p class="slide-description">
+                        The way you think, the way you see things, and everything that makes you YOU.
+                    </p>
+
+                    <div class="photo-grid">
+                        <figure>
+                            <img src="assets/images/mind-1.jpg" alt="Mind photo 1" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/mind-2.jpg" alt="Mind photo 2" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/mind-3.jpg" alt="Mind photo 3" />
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- =================================
+                 SLIDE 4: YOUR INTERESTS
+            ================================== -->
+
+                <article class="photo-slide">
+                    <h1>Your Interests <span>♡</span></h1>
+
+                    <p class="slide-description">
+                        All the little things you enjoy, the things you're passionate about, and what makes you happy.
+                    </p>
+
+                    <div class="photo-grid">
+                        <figure>
+                            <img src="assets/images/interests-1.jpg" alt="Interests photo 1" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/interests-2.jpg" alt="Interests photo 2" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/interests-3.jpg" alt="Interests photo 3" />
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- =================================
+                 SLIDE 5: YOU
+            ================================== -->
+
+                <article class="photo-slide">
+                    <h1>You <span>♡</span></h1>
+
+                    <p class="slide-description">
+                        Not just one thing. Not just a part of you. Simply everything that makes you who you are.
+                    </p>
+
+                    <div class="photo-grid">
+                        <figure>
+                            <img src="assets/images/you-1.jpg" alt="You photo 1" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/you-2.jpg" alt="You photo 2" />
+                        </figure>
+
+                        <figure>
+                            <img src="assets/images/you-3.jpg" alt="You photo 3" />
+                        </figure>
+                    </div>
+                </article>
+
+                <!-- =================================
+                 SLIDESHOW NAVIGATION
+            ================================== -->
+
+                <div class="slideshow-controls">
+                    <button class="slide-control" id="prevSlide" type="button" disabled>← Previous</button>
+
+                    <button class="slide-control" id="nextSlide" type="button">Next →</button>
+
+                    <!-- APPEARS ON THE LAST SLIDE -->
+                    <button class="message-button" id="messageButton" type="button" hidden>Read my message 💌</button>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
